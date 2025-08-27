@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top|center"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Klik Gua"
+        android:textColor="@color/white"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        android:backgroundTint="@color/birun"
+        android:onClick="showToast" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="400dp"
+        android:layout_height="630dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/birun"
+        android:textSize="150dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="Klik Aku"
+        android:textColor="@color/white"
+        app:cornerRadius="@dimen/cardview_default_radius"
+        android:backgroundTint="@color/birun"
+        android:onClick="countUp"/>
+
+
+</LinearLayout>
